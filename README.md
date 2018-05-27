@@ -15,7 +15,7 @@ Ebenso steigern Design Patterns die Effizienz beim programmieren und verbessern 
 - Lösungen zu Programmierproblemen
 - Gute Design-Techniken (best practice)
 - Erste Veröffentlichung von der **G**ang **o**f **F**our
--- Erich Gamma
--- Richard Helm
--- Ralph Johnson
--- John Vlissides
+... Erich Gamma
+... Richard Helm
+... Ralph Johnson
+... John Vlissides
