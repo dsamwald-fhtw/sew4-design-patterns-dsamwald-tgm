@@ -14,4 +14,86 @@ Eine verwendung des Strategy Pattern bietet sich an, wenn
 	-  die Klasse flexibler gestaltet werden soll.
 
 ### UML 
+Hier ist ein UML Beispiel für ein Typisches Strategy Pattern:
 ![Strategy Pattern](https://raw.githubusercontent.com/dsamwald-tgm/sew4-design-patterns-dsamwald-tgm/master/strategy%20pattern/img/strategy_pattern_uml.PNG)
+
+Hier sind zwei UML von Verhalten mit ihren unterschiedlichen Verhaltensweisen:
+![Strategy Pattern Verhalten](https://i.imgur.com/PhAKit6.png)
+
+### Code
+Passend zu den Verhalten von oben nun ein Strategy Pattern mit Enten.
+Es gibt verschiedene Enten:
+- MallardDuck
+- DecoyDuck
+- RubberDuck
+
+Und wir haben wie in der zweiten Graphik von oben zu sehen ist Verschiedene Flug und Quack Verhalten.
+
+##### Duck.class
+```java
+public class Duck {
+
+	QuackBehavior quackBehavior;
+    FlyBehavior flyBehavior;
+    
+    public void performQuack() {
+    	quackBehavior.quack();
+    }
+    
+    public void performFly() {
+    	flyBehavior.fly();
+    }
+}
+```
+##### DecoyDuck.class
+```java
+public class DecoyDuck extends Duck {
+
+	public DecoyDuck() {
+    	quackBehavior = new MuteQuack();
+        flyBehavior = new FlyNoWay();
+    }
+    
+    public void display() {
+    	System.out.println("I'm a decoy duck")
+    }
+}
+```
+##### MallardDuck.class
+```java
+public class MallardDuck extends Duck {
+
+	public MallardDuck() {
+    	quackBehavior = new Quack();
+        flyBehavior = new FlyWithWings();
+    }
+    
+    public void display() {
+    	System.out.println("I'm a real Mallard duck")
+    }
+}
+```
+##### Test.class
+```java
+public class DuckSimulator {
+	public static void main(String[] args) {
+    
+    	Duck decoy = new DecoyDuck();
+        decoy.performQuack();
+        decoy.performFly();
+        
+        Duck mallard = new MallardDuck();
+        mallard.performQuack();
+        mallard.performFly();
+    }
+}
+```
+
+##### Konsolen Output
+```
+>>> MuteQuack
+>>> I can't fly.
+
+>>> Quack
+>>> I'm flying!!
+```
