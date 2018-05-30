@@ -15,7 +15,7 @@ Eine verwendung des Strategy Pattern bietet sich an, wenn
 
 ### UML 
 Hier ist ein UML Beispiel für ein Typisches Strategy Pattern:
-![Strategy Pattern](https://raw.githubusercontent.com/dsamwald-tgm/sew4-design-patterns-dsamwald-tgm/master/strategy%20pattern/img/strategy_pattern_uml.PNG)
+![Strategy Pattern](https://i.imgur.com/RMoV0aZ.png)
 
 Hier sind zwei UML von Verhalten mit ihren unterschiedlichen Verhaltensweisen:
 ![Strategy Pattern Verhalten](https://i.imgur.com/PhAKit6.png)
