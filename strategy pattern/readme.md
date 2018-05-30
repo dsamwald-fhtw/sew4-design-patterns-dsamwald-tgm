@@ -14,8 +14,4 @@ Eine verwendung des Strategy Pattern bietet sich an, wenn
 	-  die Klasse flexibler gestaltet werden soll.
 
 ### UML 
-Hier ist ein UML Beispiel für ein Typisches Strategy Pattern:
 ![Strategy Pattern](https://raw.githubusercontent.com/dsamwald-tgm/sew4-design-patterns-dsamwald-tgm/master/strategy%20pattern/img/strategy_pattern_uml.PNG)
-
-Hier sind zwei UML von Verhalten mit ihren unterschiedlichen Verhaltensweisen:
-![Strategy Pattern Verhalten](https://raw.githubusercontent.com/dsamwald-tgm/sew4-design-patterns-dsamwald-tgm/master/strategy%20pattern/img/strategy_pattern_verhalten_uml.PNG)
