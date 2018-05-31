@@ -37,19 +37,24 @@ public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
 	public Dough createDough() {
     	return ThinCrustDough();
     }
+    
     public Sauce createSauce() {
     	return MarinaraSauce();
     }
+    
     public Cheese createCheese() {
     	return ReggianoCheese();
     }
+    
     public Veggies[] createVeggies() {
     	Veggies veggies[] = { new Garlic(), new Onion(), new Mushroom(), new RedPepper() };
         return veggies;
     }
+    
     public Pepperoni createPepperoni() {
     	return SlicedPeperoni();
     }
+    
     public Clam createClam() {
     	return FreshClams();
     }
