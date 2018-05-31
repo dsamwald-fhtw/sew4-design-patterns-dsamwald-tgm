@@ -11,7 +11,7 @@ Die Abstrakte Fabrik wird angewendet, wenn:
 ### UML 
 Hier ist ein UML Beispiel für ein Typisches Abstract Factory Pattern:
 
-![Abstract Factory Pattern UML](https://i.imgur.com/26lJRo1.png)
+![Abstract Factory Pattern UML](https://i.imgur.com/pMks2iF.png)
 
 
 Hier ist ein Beispiel in dem eine Pizza von einer Abstract Factory erzeugt wird:
