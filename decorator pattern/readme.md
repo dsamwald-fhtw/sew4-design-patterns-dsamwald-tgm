@@ -9,11 +9,11 @@ Ein Kaffee von bspw. Starbucks besteht aus verschiedenen Zutaten. Diese Zutaten 
 
 ### UML 
 Hier ist ein UML Beispiel für ein Typisches Decorator Pattern:
-![Strategy Pattern](https://i.imgur.com/g8StIVx.png)
+![Decorator Pattern UML](https://i.imgur.com/g8StIVx.png)
 
 
 Hier ist ein Beispiel in dem ein Getränk(Kaffee) Decorated wird:
-![Strategy Pattern](https://i.imgur.com/nBqsS15.png)
+![Strategy Pattern Example UML](https://i.imgur.com/nBqsS15.png)
 
 ### Code
 Passend zu dem zweiten UML von oben nun ein Decorator Pattern um einen Kaffee zu dekorieren.
