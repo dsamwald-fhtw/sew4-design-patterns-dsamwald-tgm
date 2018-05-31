@@ -9,11 +9,11 @@ Eine oder auch mehrere Komponenten(Wetteranzeigen) stellen den Zustand eines Obj
 
 ### UML 
 Hier ist ein UML Beispiel für ein Typisches Observer Pattern:
-![Strategy Pattern](https://i.imgur.com/08ws8I4.png)
+![Observer Pattern UML](https://i.imgur.com/08ws8I4.png)
 
 
 Hier ist ein Beispiel in Form einer Wetterstation zu sehen:
-![Strategy Pattern](https://i.imgur.com/tXBtsyz.png)
+![Observer Pattern Example UML](https://i.imgur.com/tXBtsyz.png)
 
 ### Code
 Passend zu dem zweiten UML von oben nun ein Observer Pattern mit einer Wetterstation.
