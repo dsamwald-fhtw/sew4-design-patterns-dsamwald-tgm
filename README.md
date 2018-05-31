@@ -6,10 +6,10 @@ Ebenso steigern Design Patterns die Effizienz beim programmieren und verbessern 
 
 #### Basis von Design Pattern
 - Objekt-orientiertes Paradigma
-- -Abstraktion
-- -Kapselung
-- -Polymorphie
-- -Vererbung
+	- Abstraktion
+	- Kapselung
+	- Polymorphie
+	- Vererbung
 
 #### Was sind Design Patterns?
 - Lösungen zu Programmierproblemen
