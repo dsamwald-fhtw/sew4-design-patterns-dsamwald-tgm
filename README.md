@@ -19,3 +19,10 @@ Ebenso steigern Design Patterns die Effizienz beim programmieren und verbessern 
 	- Richard Helm
 	- Ralph Johnson
 	- John Vlissides
+	
+#### Beispiele für Design Pattern
+- [Strategy Pattern](https://github.com/dsamwald-tgm/sew4-design-patterns-dsamwald-tgm/tree/master/strategy%20pattern)
+- [Observer Pattern](https://github.com/dsamwald-tgm/sew4-design-patterns-dsamwald-tgm/tree/master/observer%20pattern)
+- [Decorator Pattern](https://github.com/dsamwald-tgm/sew4-design-patterns-dsamwald-tgm/tree/master/decorator%20pattern)
+- [Simple Factory Pattern](https://github.com/dsamwald-tgm/sew4-design-patterns-dsamwald-tgm/tree/master/factory%20pattern/simple)
+- [Abstract Factory Pattern](https://github.com/dsamwald-tgm/sew4-design-patterns-dsamwald-tgm/tree/master/factory%20pattern/abstract)
